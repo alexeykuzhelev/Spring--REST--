@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8c42698-d131-4738-acb4-5ad4edbb7488" name="Default Changelist" comment="Spring-приложение, предоставляющее REST-сервис для приема и регистрации операций в базе данных по расчетам с водителями.">
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileContent/annotation-processors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/SpringBootRestServicePaymentsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/ASimpleRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/CustomErrorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/OperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/util/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/util/Clients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/util/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/ACritery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/AccountCritery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/ClientCritery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/OperationCritery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/AEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/MoneySerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QAEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/BaseRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/OperationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ACrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ICrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/OperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/OperationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/SpringBootRestServicePaymentsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/service/OperationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/payment-server/target/" />
+    <ignored path="$PROJECT_DIR$/payment-server/.gradle/" />
+    <ignored path="$PROJECT_DIR$/payment-server/build/" />
+    <ignored path="$PROJECT_DIR$/payment-server/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/payment-server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/payment-server">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payments" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payments" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payments" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payments" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ClientServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/service/OperationServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/SpringBootRestServicePaymentsApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/OperationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/ServletInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/SpringBootRestServicePaymentsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ICrudService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/OperationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compileQuerydsl</find>
+      <find>compileJava</find>
+      <find>findById</find>
+      <find>single</find>
+      <find>sourceSets</find>
+      <find>querydsl-apt</find>
+      <find>flyway</find>
+      <find>AccountRepository</find>
+      <find>predicates.add(qAccount.name.containsIgnoreCase(critery.name));</find>
+      <find>.id.in(critery.ids));</find>
+      <find>getBooleanExpression</find>
+      <find>QAEntity) qEntity)</find>
+      <find>findAll</find>
+      <find>critery.getFromDate()</find>
+      <find>annotationProcessor</find>
+      <find>mapstruct</find>
+      <find>cloud:spring-cloud-stream</find>
+      <find>gradle-plugin</find>
+      <find>junit-platform</find>
+      <find>mockito</find>
+      <find>querydsl-jpa</find>
+      <find>spring-boot-starter-test</find>
+      <find>useJUnitPlatform</find>
+      <find>junit-vintage</find>
+      <find>junit.platform</find>
+      <find>compile</find>
+      <find>QOperation</find>
+      <find>srcDirs</find>
+      <find>org.mapstruct:mapstruct-processor</find>
+      <find>System.out.println</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Client</replace>
+      <replace>Operation</replace>
+      <replace>ru.bitmaster.paymentserver</replace>
+      <replace>accountId</replace>
+      <replace>L</replace>
+      <replace>getIds()</replace>
+      <replace>1.18.10</replace>
+      <replace>1.16.22</replace>
+      <replace>1.18.6</replace>
+      <replace>1.18.12</replace>
+      <replace>4.1.3</replace>
+      <replace>qEntity</replace>
+      <replace>fromDate</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/ServletInitializer.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/util/Accounts.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/util/Clients.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/util/Operations.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/CustomErrorType.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/TransferMoneyApplicationTests.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/resources/import.sql" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/MoneySerializer.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/ASimpleRestController.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/AccountController.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/ClientController.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/generated/ru/bitmaster/paymentserver/entity/QAEntity.java" />
+        <option value="$PROJECT_DIR$/payment-server/build/generated/sources/annotationProcessor/java/main/ru/bitmaster/paymentserver/entity/QAEntity.java" />
+        <option value="$PROJECT_DIR$/payment-server/build/generated/sources/annotationProcessor/java/main/ru/bitmaster/paymentserver/entity/QAccount.java" />
+        <option value="$PROJECT_DIR$/payment-server/build/generated/sources/annotationProcessor/java/main/ru/bitmaster/paymentserver/entity/QClient.java" />
+        <option value="$PROJECT_DIR$/payment-server/build/generated/sources/annotationProcessor/java/main/ru/bitmaster/paymentserver/entity/QOperation.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/IEntity.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/IEntity.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/OperationServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/BaseRespository.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/service/OperationServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/payment-server/build.gradle" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/AEntity.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/Client.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/Account.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/Operation.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/AccountCritery.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/ACritery.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/ClientCritery.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/OperationCritery.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/OperationController.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/AccountRepository.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/ClientRepository.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/OperationRepository.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ClientService.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ICrudService.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/SpringBootRestServicePaymentsApplication.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/SpringBootRestServicePaymentsApplicationTests.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/OperationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/OperationService.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QAEntity.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QAccount.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QOperation.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QClient.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ACrudService.java" />
+        <option value="$PROJECT_DIR$/payment-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/service/OperationServiceTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="31" />
+    <option name="y" value="30" />
+    <option name="width" value="1230" />
+    <option name="height" value="904" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentserver" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentserver" type="462c0819:PsiDirectoryNode" />
+              <item name="critery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentserver" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentserver" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentserver" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="payment-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentserver" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="payments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
+    <property name="ToolWindowDuplicates.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/payment-server/src/lib/lombok_1.18.12.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.bitmaster.paymentserver.entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.13660245" />
+  </component>
+  <component name="RunManager" selected="Gradle.payments [clean]">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="payments [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="payments [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OperationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payments.payment-server.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bitmaster.paymentserver.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.bitmaster.paymentserver.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.bitmaster.paymentserver.service.OperationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperationServiceTest.findOperationsByIdsAndPageNumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payments.payment-server.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bitmaster.paymentserver.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.bitmaster.paymentserver.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.bitmaster.paymentserver.service.OperationServiceTest" />
+      <option name="METHOD_NAME" value="findOperationsByIdsAndPageNumTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperationServiceTest.testGetByCriterySrcAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payments.payment-server.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bitmaster.paymentserver.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.bitmaster.paymentserver.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.bitmaster.paymentserver.service.OperationServiceTest" />
+      <option name="METHOD_NAME" value="testGetByCriterySrcAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRestServicePaymentsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="payments.payment-server.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bitmaster.paymentserver.SpringBootRestServicePaymentsApplicationTests" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.bitmaster.paymentserver.SpringBootRestServicePaymentsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.payments [clean]" />
+        <item itemvalue="Gradle.payments [build]" />
+        <item itemvalue="JUnit.OperationServiceTest" />
+        <item itemvalue="JUnit.OperationServiceTest.findOperationsByIdsAndPageNumTest" />
+        <item itemvalue="JUnit.OperationServiceTest.testGetByCriterySrcAccount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8c42698-d131-4738-acb4-5ad4edbb7488" name="Default Changelist" comment="" />
+      <created>1596408725921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596408725921</updated>
+      <workItem from="1596408730217" duration="4129000" />
+      <workItem from="1596441063696" duration="335000" />
+      <workItem from="1596441493509" duration="306000" />
+      <workItem from="1596441965640" duration="2478000" />
+      <workItem from="1596459544233" duration="588000" />
+      <workItem from="1596489924934" duration="588000" />
+      <workItem from="1596526298552" duration="588000" />
+      <workItem from="1596663569293" duration="585000" />
+      <workItem from="1596723854365" duration="13989000" />
+      <workItem from="1596786696345" duration="4306000" />
+      <workItem from="1596926315466" duration="2337000" />
+      <workItem from="1596965480961" duration="28473000" />
+      <workItem from="1597046287001" duration="3432000" />
+      <workItem from="1597089710279" duration="12300000" />
+      <workItem from="1597129947268" duration="42921000" />
+      <workItem from="1597215911532" duration="28556000" />
+      <workItem from="1597255489594" duration="7586000" />
+      <workItem from="1597266324862" duration="11142000" />
+      <workItem from="1597301956894" duration="6268000" />
+      <workItem from="1597311762317" duration="591000" />
+      <workItem from="1597391032258" duration="19789000" />
+      <workItem from="1597502480336" duration="592000" />
+      <workItem from="1597608186857" duration="8020000" />
+      <workItem from="1597649396654" duration="32641000" />
+      <workItem from="1597734380807" duration="39607000" />
+      <workItem from="1597820822619" duration="30774000" />
+      <workItem from="1597858290070" duration="6996000" />
+      <workItem from="1597866771391" duration="6162000" />
+      <workItem from="1597874072532" duration="1995000" />
+      <workItem from="1597876318472" duration="8820000" />
+      <workItem from="1597906673934" duration="25440000" />
+      <workItem from="1597956232138" duration="6372000" />
+      <workItem from="1597964343745" duration="5506000" />
+      <workItem from="1597993346319" duration="20123000" />
+      <workItem from="1598019650174" duration="12517000" />
+      <workItem from="1598087119578" duration="5295000" />
+      <workItem from="1598111879730" duration="13986000" />
+      <workItem from="1598172123641" duration="39312000" />
+      <workItem from="1598252823567" duration="44581000" />
+      <workItem from="1598339343852" duration="27282000" />
+      <workItem from="1598384125584" duration="1686000" />
+      <workItem from="1598387571046" duration="221000" />
+      <workItem from="1598388099447" duration="6270000" />
+      <workItem from="1598395185331" duration="6363000" />
+      <workItem from="1598424394212" duration="14459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OperationServiceTest_testGetByCriterySrcAccount - 2020.08.26 at 10h 23m 15s.xml">
+      <configuration name="OperationServiceTest.testGetByCriterySrcAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperationServiceTest_testGetByCriterySrcAccount - 2020.08.26 at 11h 22m 34s.xml">
+      <configuration name="OperationServiceTest.testGetByCriterySrcAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperationServiceTest_testGetByCriterySrcAccount - 2020.08.26 at 11h 25m 59s.xml">
+      <configuration name="OperationServiceTest.testGetByCriterySrcAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperationServiceTest_testGetByCriterySrcAccount - 2020.08.26 at 11h 33m 22s.xml">
+      <configuration name="OperationServiceTest.testGetByCriterySrcAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperationServiceTest_testGetByCriterySrcAccount - 2020.08.26 at 11h 34m 50s.xml">
+      <configuration name="OperationServiceTest.testGetByCriterySrcAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperationServiceTest_testGetByCriterySrcAccount - 2020.08.26 at 11h 36m 34s.xml">
+      <configuration name="OperationServiceTest.testGetByCriterySrcAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperationServiceTest - 2020.08.26 at 11h 37m 30s.xml">
+      <configuration name="OperationServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperationServiceTest_findOperationsByIdsAndPageNumTest - 2020.08.26 at 11h 41m 52s.xml">
+      <configuration name="OperationServiceTest.findOperationsByIdsAndPageNumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperationServiceTest_findOperationsByIdsAndPageNumTest - 2020.08.26 at 12h 28m 30s.xml">
+      <configuration name="OperationServiceTest.findOperationsByIdsAndPageNumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperationServiceTest - 2020.08.26 at 12h 29m 18s.xml">
+      <configuration name="OperationServiceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="556307000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27427185" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4965812" weight="0.30069125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3548387" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4974359" weight="0.30440414" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50085473" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4974359" weight="0.2580645" />
+      <window_info anchor="bottom" id="Duplicates" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.4991453" weight="0.32949308" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32991454" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.32928804" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32991454" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32991454" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring-приложение, предоставляющее REST-сервис для приема и регистрации операций в базе данных по расчетам с водителями." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring-приложение, предоставляющее REST-сервис для приема и регистрации операций в базе данных по расчетам с водителями." />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="critery" language="JAVA" />
+        <watch expression="critery" language="JAVA" />
+        <watch expression="critery" language="JAVA" />
+        <watch expression="fromDate" />
+        <watch expression="fromDate" language="JAVA" />
+        <watch expression="fromDate" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>((PageImpl)page).content</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.springframework.data.domain.PageImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>critery</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-core/4.3.1/d2756d61bf25b4c22c32058bff797b18718d4ffb/querydsl-core-4.3.1-sources.jar!/com/querydsl/core/types/dsl/BooleanOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#1249#1250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/collect/ImmutableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="294" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/collect/ObjectArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+          <folding>
+            <element signature="e#8341#8342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-core/4.3.1/d2756d61bf25b4c22c32058bff797b18718d4ffb/querydsl-core-4.3.1-sources.jar!/com/querydsl/core/types/ConstantImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#3993#3994#0" expanded="true" />
+            <element signature="e#4383#4384#0" expanded="true" />
+            <element signature="e#4442#4443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-core/4.3.1/d2756d61bf25b4c22c32058bff797b18718d4ffb/querydsl-core-4.3.1-sources.jar!/com/querydsl/core/types/dsl/DslExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#2211#2212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-core/4.3.1/d2756d61bf25b4c22c32058bff797b18718d4ffb/querydsl-core-4.3.1-sources.jar!/com/querydsl/core/types/ExpressionBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.2.8.RELEASE/50e0b59e7c0c76eaad427c3f4864dbaab7d2e98a/spring-test-5.2.8.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.2.8.RELEASE/50e0b59e7c0c76eaad427c3f4864dbaab7d2e98a/spring-test-5.2.8.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/d10a9c3acc6c07a5700e37697b5a6b4dcfb8abf9/junit-4.13-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.2.8.RELEASE/470c0139ecafe0d62dd5b6758edda245f0c744fd/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="693" selection-start-line="693" selection-end-line="693" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.2.8.RELEASE/201078aaf5a068b7766d561490354eaf5d8d1574/spring-core-5.2.8.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.2.8.RELEASE/e26ca55b0938b51f7f042d63957d54b7b4f293d0/spring-tx-5.2.8.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="386" selection-start-line="386" selection-end-line="386" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.2.8.RELEASE/e26ca55b0938b51f7f042d63957d54b7b4f293d0/spring-tx-5.2.8.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.2.8.RELEASE/470c0139ecafe0d62dd5b6758edda245f0c744fd/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/ASimpleRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/CustomErrorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/controller/OperationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/AccountCritery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/ACritery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/ClientCritery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/critery/OperationCritery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/AEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/MoneySerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QAEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/entity/QAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/OperationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/ClientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/repository/BaseRespository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ACrudService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/ICrudService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/OperationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/service/OperationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/java/ru/bitmaster/paymentserver/SpringBootRestServicePaymentsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/resources/import.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/service/OperationServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment-server/src/test/java/ru/bitmaster/paymentserver/SpringBootRestServicePaymentsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lombok_1.18.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>payments</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
